@@ -1,0 +1,187 @@
+body, html {
+    height: 100%;
+    background: url("images/home.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* .flex-container-background {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    overflow: auto;
+    width: auto;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+} */
+
+.flex-item {
+    /* margin: auto; */
+    margin-top: 0px;
+    background: transparent;
+    
+}
+
+.flex-item-0 {
+    margin: auto;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0));
+}
+
+.flex-item-1 {
+    margin: auto;
+    margin-top: 50px;
+    /* background: rgba(0, 0, 0, .5); */
+    /* width: 500px; */
+    /* border-radius: 10px; */
+    flex-direction: row;
+}
+
+@media screen and (max-width: 540px) {
+    .flex-item-1 {
+        margin-top: 0px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .flex-item-1 {
+        margin-top: 0px;
+        width: auto;
+    }
+}
+
+h1[id="form_header"] {
+    line-height: 60px;
+    margin-left: 20px;
+    /* font-family: Roboto-Thin; */
+    font-size: 50px;
+    text-align: center;
+    font-family: 'STIX Two Text', serif;
+    color: white;
+}
+
+/* Bordered form */
+form {
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: OpenSans-Light;
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.flex-item-login {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    font-family: Roboto-Regular;
+    color: #212121;
+    font-size: 18px;
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    padding: 1px 1px;
+    bottom: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: 'STIX Two Text', serif;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* ------------------------------------------------------------------ */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /* margin-left: 256px; */
+    width: auto;
+    height: auto;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 
+h1[id="customer"] {
+    margin: 20px;
+    line-height: normal;
+    font-family: Roboto-Light;
+    font-size: 40px;
+    text-align: center;
+    color: #212121;
+    line-height: 55px;
+    border-bottom: 2px solid #212121;
+    padding: 30px 100px;
+} */
+
+p[id="customer"] {
+    max-width: 600px;
+    margin: 20px;
+    font-size: 30px;
+    font-family: Roboto-Regular;
+    color: #fafafa;
+    line-height: 39px;
+    padding: 10px 100px;
+    font-family: 'STIX Two Text', serif;
+}
+
+@media screen and (max-width: 1080px) {
+    /* h1[id="customer"] {
+        padding: 30px 0px;
+    } */
+
+    p[id="customer"] {
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .flex-container {
+        margin: auto;
+    }
+}
